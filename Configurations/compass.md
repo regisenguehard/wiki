@@ -1,0 +1,1 @@
+Fichier [config.rb](https://github.com/whatson-web/wiki/blob/master/Configurations/Ressources/config.rb) à utiliser
