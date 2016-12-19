@@ -11,8 +11,7 @@ Vous devez maintenant avoir quelque chose comme ça :
 	domaine:~$ 
 	
 ## Se rendre dans le dossier du sous-domaine
-Pour la preprod saisir : `cd preprod`
-
+Pour la preprod saisir : `cd preprod` (par défaut, vérifier dans l'onglet `Sous-domaines` si ça ne fonctionne pas)
 Pour la prod saisir : `cd prod`
 
 ## Créer l'utilisateur
