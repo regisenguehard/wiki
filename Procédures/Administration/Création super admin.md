@@ -15,14 +15,14 @@ Pour la preprod saisir : `cd preprod` (par défaut, vérifier dans l'onglet `Sou
 Pour la prod saisir : `cd prod`
 
 ## Créer l'utilisateur
-Saisir la commande suivante : `app/console fos:user:create`
+Saisir la commande suivante : `php app/console fos:user:create`
 
 Renseigner l'email en `username` et en `email`
 
 Pour le mot de passe, on respectera les conventions internes
 
 ## Associer le rôle à l'utilisateur
-Saisir la commande suivante : `app/console fos:user:promote`
+Saisir la commande suivante : `php app/console fos:user:promote`
 
 Renseigner l'email en `username`
 
