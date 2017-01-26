@@ -14,6 +14,7 @@ Une remote est une url qui fait référence à un git.
 
 ## Basiques
 ### Etat d'un fichier dans un commit
+### Créer et push un nouveau commit
 ### Gestion des pull/push sur une branche
 ### Merger des branches
 
