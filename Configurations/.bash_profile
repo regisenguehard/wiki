@@ -31,6 +31,8 @@ sf3_updateproject() {
 # Aliases GIT
 alias gfc=gitfastcommit
 alias gfcp=gitfastcommitpush
+alias guns='git reset HEAD'
+alias gad='git add'
 alias gst='git status'
 alias gdf='git diff'
 alias gco='git checkout'

@@ -14,6 +14,7 @@ Une remote est une url qui fait référence à un git.
 
 ## Basiques
 ### Etat d'un fichier dans un commit
+[Schéma](https://github.com/whatson-web/wiki/tree/master/Tutos/Ressources/file.jpg)
 ### Créer et push un nouveau commit
 ### Gestion des pull/push sur une branche
 ### Merger des branches
@@ -22,4 +23,4 @@ Une remote est une url qui fait référence à un git.
 ### Pusher une nouvelle branche vers origin
 ### Merger deux branches
 ### Annuler un commit
-### Récupérer une nouvelle branche sur origin qui n'existe pas en local
+### Récupérer une nouvelle branche sur origin qui n'existe pas en local2
