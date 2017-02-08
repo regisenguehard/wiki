@@ -1,31 +1,31 @@
 # Functions
 gitfastcommit() {
-	git add .
-	git commit -m "$1"
+git add .
+git commit -m "$1"
 }
 
 gitfastcommitpush() {
-	git add .
-	git commit -m "$1"
-	git push
+git add .
+git commit -m "$1"
+git push
 }
 
 sf2_updateproject() {
-	git pull
-	composer install
-	app/console doctrine:schema:update --force
-	app/console assetic:dump
-	app/console cache:clear
-	app/console cache:clear --env=prod
+git pull
+composer install
+app/console doctrine:schema:update --force
+app/console assetic:dump
+app/console cache:clear
+app/console cache:clear --env=prod
 }
 
 sf3_updateproject() {
-	git pull
-	composer install
-	bin/console doctrine:schema:update --force
-	bin/console assetic:dump
-	bin/console cache:clear
-	bin/console cache:clear --env=prod
+git pull
+composer install
+bin/console doctrine:schema:update --force
+bin/console assetic:dump
+bin/console cache:clear
+bin/console cache:clear --env=prod
 }
 
 # Aliases GIT
