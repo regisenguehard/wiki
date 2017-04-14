@@ -5,4 +5,5 @@
     
 # Redirection HTTPS
     RewriteCond %{HTTPS} off
+    RewriteCond %{HTTP_HOST} ^www.mondomaine\.com$
     RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
