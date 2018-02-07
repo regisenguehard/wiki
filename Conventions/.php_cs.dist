@@ -47,10 +47,6 @@ $config = PhpCsFixer\Config::create()
         'strict_param' => true,
         'yoda_style' => true,
     ])
-    ->setFinder(
-        PhpCsFixer\Finder::create()
-            ->in('src/')
-    )
 ;
 
 try {
