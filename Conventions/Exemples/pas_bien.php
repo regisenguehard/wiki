@@ -9,31 +9,31 @@ use Azerty/UselessClass;
 class MyClass
 {
 
-	private $_myPrivateProperty = [];
-	$publicProperty = $otherPublicProperty = null;
+    private $_myPrivateProperty = [];
+    $publicProperty = $otherPublicProperty = null;
 
-	function myFunction( $arg1,$arg2 ) {
+    function myFunction( $arg1,$arg2 ) {
 
-		$myVar = 'azerty';
-		
-		if ($myVar == 'swaerty') $myOtherVar = 'test';
-		
-		if($myVar == true)
-		{
-			$myVar == 'Yo' . 'Yo';
-		}else
-		{
-			$myVar == 'Oy';
-		}
-		
-		$myClass = new MyClass();
-		$myOtherClass = new MyOtherClass();
+        $myVar = 'azerty';
 
-		$this->otherFunction();
+        if ($myVar == 'swaerty') $myOtherVar = 'test';
 
-	}
-	
-	private _myPrivateFunction() {
-	}
+        if($myVar == true)
+        {
+            $myVar = 'Yo' . 'Yo';
+        }else
+        {
+            $myVar = 'Oy';
+        }
+
+        $myClass = new MyClass();
+        $myOtherClass = new MyOtherClass();
+
+        $this->otherFunction();
+
+    }
+
+    private function _myPrivateFunction() {
+    }
 
 }
