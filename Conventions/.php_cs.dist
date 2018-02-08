@@ -25,6 +25,7 @@ $config = PhpCsFixer\Config::create()
         'multiline_comment_opening_closing' => true,
         'multiline_whitespace_before_semicolons' => ['strategy' => 'no_multi_line'],
         'no_extra_blank_lines' => ['tokens' => ['break', 'continue', 'extra', 'return', 'throw', 'use', 'parenthesis_brace_block', 'square_brace_block', 'curly_brace_block']],
+        'binary_operator_spaces' => ['align_double_arrow' => true],
         'no_null_property_initialization' => true,
         'no_short_echo_tag' => true,
         'no_superfluous_elseif' => true,
